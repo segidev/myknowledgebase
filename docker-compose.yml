@@ -1,0 +1,17 @@
+version: "3"
+services:
+    www:
+        image: node:8
+        volumes:
+            - ./:/app
+        working_dir: /app
+        command: ['npm', 'run', 'docs:dev']
+        hostname: dev.mkb.segidev.docker
+    dnsdock:
+        image: defreitas/dns-proxy-server
+        ports:
+            - 5380:5380
+        volumes:
+            - /opt/dns-proxy-server/conf:/app/conf
+            - /var/run/docker.sock:/var/run/docker.sock
+            - /etc/resolv.conf:/etc/resolv.conf
