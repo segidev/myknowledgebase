@@ -4,8 +4,10 @@ module.exports = {
   host: 'dev.mkb.segidev.docker',
   port: 80,
   head: [
-    ['link', { rel: "icon", href: "favicon.png" }]
+    ['link', { rel: "icon", href: "favicon.png" }],
+    ['link', { rel: "manifest", href: "manifest.webmanifest" }]
   ],
+  serviceWorker: true,
   themeConfig: {
     sidebar: [
       '/',

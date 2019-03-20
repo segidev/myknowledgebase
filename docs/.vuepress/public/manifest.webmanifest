@@ -1,0 +1,15 @@
+{
+  "name": "Segis Knowledge Base",
+  "short_name": "SKB",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A collection of life savers.",
+  "icons": [
+    {
+      "src": "/images/icon_16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
