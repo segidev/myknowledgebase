@@ -19,6 +19,13 @@ module.exports = {
         ]
       },
       {
+        title: 'Gitlab',   // required
+        collapsable: false, // optional, defaults to true
+        children: [
+          '/gitlab/rsync-sshpass'
+        ]
+      },
+      {
         title: 'PHP',   // required
         collapsable: false, // optional, defaults to true
         children: [
@@ -39,7 +46,8 @@ module.exports = {
         children: [
           '/web/htaccess-https.md',
           '/web/htaccess-primary-forward.md',
-          '/web/cpanel-change-root.md'
+          '/web/cpanel-change-root.md',
+          '/web/wildcard-subdomain-redirect-subfolder.md',
         ]
       },
       {
