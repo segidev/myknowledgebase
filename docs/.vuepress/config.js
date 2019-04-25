@@ -22,7 +22,8 @@ module.exports = {
         title: 'Gitlab',   // required
         collapsable: false, // optional, defaults to true
         children: [
-          '/gitlab/rsync-sshpass'
+          '/gitlab/rsync-sshpass',
+          '/gitlab/execute-ssh-with-sshpass'
         ]
       },
       {
