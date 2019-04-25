@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Segis Knowledge Base',
   description: 'Welcome to my little collection of things that save my life whenever i am thinking why the hell did i not write down how i solved a certain problem?!',
-  host: 'dev.mkb.segidev.docker',
-  port: 80,
+  host: '0.0.0.0',
+  port: 8001,
   head: [
     ['link', { rel: "icon", href: "favicon.png" }],
     ['link', { rel: "manifest", href: "manifest.webmanifest" }]
