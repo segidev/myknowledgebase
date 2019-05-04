@@ -30,12 +30,17 @@ Sometimes it is good to have multiple keys for the same host
       IdentityFile ~/.ssh/my-custom-name-for-the-host
       User git
     ```
+
+    Typing `ssh my-custom-name-for-the-host` would resolve to:
+    1. `User@HostName -i IdentityFile` in our case
+    2. `git@gitlab.com -i ~/.ssh/my-custom-name-for-the-host`
+
     ::: tip
     Mind that we are refering to the **private key** in this file NOT the public key.
     :::
 3. Now you can add a remote git host like this:
     ```
-    git remote add origin git@my-custom-name-for-the-host:domain-to/the-repository.git
+    git remote add origin my-custom-name-for-the-host:domain-to/the-repository.git
     ```
 
 ## Why should i do this?
