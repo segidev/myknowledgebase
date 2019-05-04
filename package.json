@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "dependencies": {
-    "vuepress": "^0.14.10",
-    "webpack-dev-middleware": "^3.6.0"
+    "vuepress": "^0.14.11",
+    "webpack-dev-middleware": "^3.6.2"
   },
   "devDependencies": {},
   "scripts": {
